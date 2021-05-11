@@ -9,8 +9,13 @@
     <title>Email List</title>
 </head>
 <body>
-    
-
+    <main id="root">
+        <button @click='GetEmail'>Get Email</button>
+            <p v-for='mail in EmailList'>
+                {{mail}}
+            </p>
+        </div>
+    </main>
     <script src="myScript.js"></script>
 </body>
 </html>
